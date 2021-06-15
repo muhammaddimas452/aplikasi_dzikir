@@ -1,0 +1,25 @@
+import 'package:flutter/material.dart';
+import 'package:portofolio/viewModel/listSuratViewModel.dart';
+import 'package:portofolio/viewModel/listDetailSuratViewModel.dart';
+import 'package:portofolio/viewModel/listDetailHaditsViewModel.dart';
+import 'package:portofolio/viewModel/jadwalViewModels.dart';
+import 'package:geolocator/geolocator.dart';
+import 'dart:async';
+import 'package:geocoding/geocoding.dart';
+import 'package:http/http.dart' as http;
+import 'dart:convert';
+import 'package:intl/intl.dart';
+part 'login.dart';
+part 'register.dart';
+part 'homepage.dart';
+part 'dzikr.dart';
+part 'detailAlquran.dart';
+part 'alquran.dart';
+part 'jadwalSholat.dart';
+part 'hadits.dart';
+part 'dzikirPagi.dart';
+part 'dzikirPetang.dart';
+part 'jadwal_sholat.dart';
+part 'tampilHadits.dart';
+part 'detailHadits.dart';
+
